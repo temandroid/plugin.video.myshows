@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.myshows" name="MyShows.me" version="1.6.2" provider-name="temandroid">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">MyShows.me for Kodi</summary>
+        <summary lang="ru">MyShows.me для Kodi</summary>
+        <description lang="en">Sync your watched TV shows and movies with MyShows.me. Automatically marks episodes and movies as watched, supports ratings and show management.</description>
+        <description lang="ru">Синхронизация просмотренных сериалов и фильмов с MyShows.me. Автоматически отмечает просмотренные серии и фильмы, поддерживает оценки и управление списком.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <website>https://myshows.me</website>
+        <source>https://github.com/temandroid/plugin.video.myshows</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="repository.myshows.me" name="MyShows.me Repository" version="1.0.0" provider-name="temandroid">
+    <extension point="xbmc.addon.repository" name="MyShows.me Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/temandroid/plugin.video.myshows/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/temandroid/plugin.video.myshows/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/temandroid/plugin.video.myshows/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">MyShows.me add-on repository</summary>
+        <summary lang="ru">Репозиторий аддона MyShows.me</summary>
+        <description lang="en">Repository for plugin.video.myshows — enables installation and automatic updates of the MyShows.me Kodi add-on.</description>
+        <description lang="ru">Репозиторий для plugin.video.myshows — установка и автоматические обновления аддона MyShows.me в Kodi.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <website>https://github.com/temandroid/plugin.video.myshows</website>
+    </extension>
+</addon>
+</addons>
