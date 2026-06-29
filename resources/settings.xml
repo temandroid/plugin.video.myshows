@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="2">
+    <section id="plugin.video.myshows">
+        <category id="account" label="32100">
+            <group id="1">
+                <setting id="username" type="string" label="32101">
+                    <level>0</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>32101</heading>
+                    </control>
+                </setting>
+                <setting id="password" type="string" label="32102">
+                    <level>0</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>32102</heading>
+                        <hidden>true</hidden>
+                    </control>
+                </setting>
+                <setting id="login_button" type="action" label="32103">
+                    <level>0</level>
+                    <data>RunPlugin(plugin://plugin.video.myshows/?action=login)</data>
+                    <control type="button" format="action">
+                        <close>false</close>
+                    </control>
+                </setting>
+            </group>
+        </category>
+        <category id="scrobbler" label="32110">
+            <group id="1">
+                <setting id="scrobble_enabled" type="boolean" label="32111">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="scrobble_at" type="integer" label="32112">
+                    <level>0</level>
+                    <default>80</default>
+                    <constraints>
+                        <minimum>50</minimum>
+                        <step>5</step>
+                        <maximum>100</maximum>
+                    </constraints>
+                    <control type="slider" format="integer">
+                        <popup>false</popup>
+                    </control>
+                </setting>
+                <setting id="show_rating_dialog" type="boolean" label="32113">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="set_watching_on_start" type="boolean" label="32114">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+                <setting id="resolve_by_title" type="boolean" label="32115">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+            </group>
+        </category>
+    </section>
+</settings>

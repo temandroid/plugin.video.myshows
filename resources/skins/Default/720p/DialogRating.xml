@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog">
+    <defaultcontrol always="true">3005</defaultcontrol>
+    <controls>
+        <control type="image">
+            <description>full-screen dim behind the dialog</description>
+            <left>0</left>
+            <top>0</top>
+            <width>1280</width>
+            <height>720</height>
+            <texture colordiffuse="AA000000">white.png</texture>
+        </control>
+        <control type="group">
+            <centerleft>50%</centerleft>
+            <centertop>50%</centertop>
+            <width>620</width>
+            <height>300</height>
+            <control type="image">
+                <left>0</left>
+                <top>0</top>
+                <width>620</width>
+                <height>300</height>
+                <texture colordiffuse="FA1E1E1E">white.png</texture>
+            </control>
+            <control type="label" id="3100">
+                <left>0</left>
+                <top>40</top>
+                <width>620</width>
+                <height>40</height>
+                <align>center</align>
+                <font>font16</font>
+                <label>Оценка</label>
+            </control>
+            <control type="button" id="3001">
+                <left>60</left>
+                <top>120</top>
+                <width>100</width>
+                <height>100</height>
+                <font>font45</font>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>★</label>
+                <texturefocus></texturefocus>
+                <texturenofocus></texturenofocus>
+                <onleft>3001</onleft>
+                <onright>3001</onright>
+            </control>
+            <control type="button" id="3002">
+                <left>160</left>
+                <top>120</top>
+                <width>100</width>
+                <height>100</height>
+                <font>font45</font>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>★</label>
+                <texturefocus></texturefocus>
+                <texturenofocus></texturenofocus>
+                <onleft>3002</onleft>
+                <onright>3002</onright>
+            </control>
+            <control type="button" id="3003">
+                <left>260</left>
+                <top>120</top>
+                <width>100</width>
+                <height>100</height>
+                <font>font45</font>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>★</label>
+                <texturefocus></texturefocus>
+                <texturenofocus></texturenofocus>
+                <onleft>3003</onleft>
+                <onright>3003</onright>
+            </control>
+            <control type="button" id="3004">
+                <left>360</left>
+                <top>120</top>
+                <width>100</width>
+                <height>100</height>
+                <font>font45</font>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>★</label>
+                <texturefocus></texturefocus>
+                <texturenofocus></texturenofocus>
+                <onleft>3004</onleft>
+                <onright>3004</onright>
+            </control>
+            <control type="button" id="3005">
+                <left>460</left>
+                <top>120</top>
+                <width>100</width>
+                <height>100</height>
+                <font>font45</font>
+                <align>center</align>
+                <aligny>center</aligny>
+                <label>★</label>
+                <texturefocus></texturefocus>
+                <texturenofocus></texturenofocus>
+                <onleft>3005</onleft>
+                <onright>3005</onright>
+            </control>
+            <control type="label" id="3300">
+                <left>0</left>
+                <top>240</top>
+                <width>620</width>
+                <height>30</height>
+                <align>center</align>
+                <font>font12</font>
+                <textcolor>FF9E9E9E</textcolor>
+                <label>←/→ выбор · OK подтвердить · Назад отмена</label>
+            </control>
+        </control>
+    </controls>
+</window>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.myshows" name="MyShows.me" version="1.6.2" provider-name="temandroid">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">MyShows.me for Kodi</summary>
+        <summary lang="ru">MyShows.me для Kodi</summary>
+        <description lang="en">Sync your watched TV shows and movies with MyShows.me. Automatically marks episodes and movies as watched, supports ratings and show management.</description>
+        <description lang="ru">Синхронизация просмотренных сериалов и фильмов с MyShows.me. Автоматически отмечает просмотренные серии и фильмы, поддерживает оценки и управление списком.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+        <website>https://myshows.me</website>
+        <source>https://github.com/temandroid/plugin.video.myshows</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

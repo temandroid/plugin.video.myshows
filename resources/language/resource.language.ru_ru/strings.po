@@ -1,0 +1,253 @@
+# Kodi Media Center language file
+# Addon Name: MyShows.me
+# Addon id: plugin.video.myshows
+msgid ""
+msgstr ""
+
+msgctxt "#32000"
+msgid "My Shows"
+msgstr "Мои сериалы"
+
+msgctxt "#32001"
+msgid "My Movies"
+msgstr "Мои фильмы"
+
+msgctxt "#32002"
+msgid "Search"
+msgstr "Поиск"
+
+msgctxt "#32003"
+msgid "Watching"
+msgstr "Смотрю"
+
+msgctxt "#32004"
+msgid "Will watch"
+msgstr "Буду смотреть"
+
+msgctxt "#32005"
+msgid "Stopped"
+msgstr "Бросил"
+
+msgctxt "#32006"
+msgid "Completed"
+msgstr "Просмотрено"
+
+msgctxt "#32007"
+msgid "Mark as watched"
+msgstr "Отметить просмотренным"
+
+msgctxt "#32008"
+msgid "Mark as unwatched"
+msgstr "Отметить непросмотренным"
+
+msgctxt "#32009"
+msgid "Rate"
+msgstr "Оценить"
+
+msgctxt "#32010"
+msgid "Rate show"
+msgstr "Оценить сериал"
+
+msgctxt "#32011"
+msgid "Set show status"
+msgstr "Изменить статус сериала"
+
+msgctxt "#32012"
+msgid "Season {0}"
+msgstr "Сезон {0}"
+
+msgctxt "#32013"
+msgid "Episode {0}"
+msgstr "Серия {0}"
+
+msgctxt "#32014"
+msgid "Marked as watched"
+msgstr "Отмечено просмотренным"
+
+msgctxt "#32015"
+msgid "Marked as unwatched"
+msgstr "Отмечено непросмотренным"
+
+msgctxt "#32016"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "#32017"
+msgid "Not authenticated. Please configure your credentials in addon settings."
+msgstr "Вы не авторизованы. Укажите логин и пароль в настройках плагина."
+
+msgctxt "#32018"
+msgid "No results found"
+msgstr "Ничего не найдено"
+
+msgctxt "#32019"
+msgid "Search query"
+msgstr "Поисковый запрос"
+
+msgctxt "#32020"
+msgid "Search shows"
+msgstr "Поиск сериалов"
+
+msgctxt "#32021"
+msgid "Search movies"
+msgstr "Поиск фильмов"
+
+msgctxt "#32022"
+msgid "Rate (1–5 stars)"
+msgstr "Оценка (1–5 звёзд)"
+
+msgctxt "#32023"
+msgid "1 star"
+msgstr "1 звезда"
+
+msgctxt "#32024"
+msgid "2 stars"
+msgstr "2 звезды"
+
+msgctxt "#32025"
+msgid "3 stars"
+msgstr "3 звезды"
+
+msgctxt "#32026"
+msgid "4 stars"
+msgstr "4 звезды"
+
+msgctxt "#32027"
+msgid "5 stars"
+msgstr "5 звёзд"
+
+msgctxt "#32028"
+msgid "Login"
+msgstr "Войти"
+
+msgctxt "#32029"
+msgid "Logout"
+msgstr "Выйти"
+
+msgctxt "#32030"
+msgid "Login successful"
+msgstr "Вход выполнен успешно"
+
+msgctxt "#32031"
+msgid "Login failed: {0}"
+msgstr "Ошибка входа: {0}"
+
+msgctxt "#32032"
+msgid "Logged in as {0}"
+msgstr "Вы вошли как {0}"
+
+msgctxt "#32033"
+msgid "Not logged in"
+msgstr "Вы не вошли в систему"
+
+msgctxt "#32034"
+msgid "Add to watching"
+msgstr "Добавить в «Смотрю»"
+
+msgctxt "#32035"
+msgid "Add to «Will watch»"
+msgstr "Добавить в «Буду смотреть»"
+
+msgctxt "#32036"
+msgid "Remove from list"
+msgstr "Удалить из списка"
+
+msgctxt "#32037"
+msgid "Refresh"
+msgstr "Обновить"
+
+msgctxt "#32038"
+msgid "Episode {0}x{1}"
+msgstr "Серия {0}x{1}"
+
+msgctxt "#32039"
+msgid "watched"
+msgstr "просмотрено"
+
+msgctxt "#32040"
+msgid "episodes"
+msgstr "серий"
+
+msgctxt "#32041"
+msgid "Auto-scrobble: episode marked as watched"
+msgstr "Автоотметка: серия отмечена просмотренной"
+
+msgctxt "#32042"
+msgid "Auto-scrobble: movie marked as watched"
+msgstr "Автоотметка: фильм отмечен просмотренным"
+
+msgctxt "#32043"
+msgid "Not found in MyShows"
+msgstr "Не найдено в MyShows"
+
+msgctxt "#32044"
+msgid "Mark all watched"
+msgstr "Отметить все просмотренными"
+
+msgctxt "#32045"
+msgid "Mark all unwatched"
+msgstr "Отметить все непросмотренными"
+
+msgctxt "#32046"
+msgid "Rate movie"
+msgstr "Оценить фильм"
+
+msgctxt "#32047"
+msgid "Will watch"
+msgstr "Буду смотреть"
+
+msgctxt "#32048"
+msgid "Not interested"
+msgstr "Не интересно"
+
+msgctxt "#32049"
+msgid "New episodes"
+msgstr "Новые серии"
+
+msgctxt "#32050"
+msgid "Go to show"
+msgstr "Перейти к сериалу"
+
+msgctxt "#32051"
+msgid "Done"
+msgstr "Готово"
+
+msgctxt "#32100"
+msgid "Account"
+msgstr "Аккаунт"
+
+msgctxt "#32101"
+msgid "Username"
+msgstr "Логин"
+
+msgctxt "#32102"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "#32103"
+msgid "Login to MyShows.me"
+msgstr "Войти в MyShows.me"
+
+msgctxt "#32110"
+msgid "Scrobbler"
+msgstr "Автоотметка"
+
+msgctxt "#32111"
+msgid "Enable auto-marking"
+msgstr "Включить автоотметку"
+
+msgctxt "#32112"
+msgid "Watch threshold (%)"
+msgstr "Порог просмотра (%)"
+
+msgctxt "#32113"
+msgid "Show rating dialog after watching"
+msgstr "Запрашивать оценку после просмотра"
+
+msgctxt "#32114"
+msgid "Set «Watching» status on playback start"
+msgstr "Устанавливать статус «Смотрю» при начале воспроизведения"
+
+msgctxt "#32115"
+msgid "Match by title when no reliable ID (kino.pub etc.)"
+msgstr "Искать по названию, если нет надёжного ID (kino.pub и др.)"
