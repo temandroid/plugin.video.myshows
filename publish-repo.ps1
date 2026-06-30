@@ -1,5 +1,5 @@
 <#
-publish-repo.ps1 — update the `repo` branch so the Kodi repository serves the
+publish-repo.ps1 - update the `repo` branch so the Kodi repository serves the
 current plugin.video.myshows version. Installed users then auto-update.
 
 Run from anywhere in the repo (uses a temporary git worktree, so it does NOT
@@ -44,7 +44,7 @@ try {
 
     git -C $wt add -A
     if (-not (git -C $wt status --porcelain)) {
-        Write-Host "Nothing to publish — repo branch already serves $version."
+        Write-Host "Nothing to publish - repo branch already serves $version."
     } else {
         git -C $wt commit -q -m "Publish $id $version"
         git -C $wt push -q github repo
