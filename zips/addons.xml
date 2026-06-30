@@ -34,9 +34,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">MyShows.me add-on repository</summary>
-        <summary lang="ru">Репозиторий аддона MyShows.me</summary>
-        <description lang="en">Repository for plugin.video.myshows — enables installation and automatic updates of the MyShows.me Kodi add-on.</description>
-        <description lang="ru">Репозиторий для plugin.video.myshows — установка и автоматические обновления аддона MyShows.me в Kodi.</description>
+        <summary lang="ru">Р РµРїРѕР·РёС‚РѕСЂРёР№ Р°РґРґРѕРЅР° MyShows.me</summary>
+        <description lang="en">Repository for plugin.video.myshows вЂ” enables installation and automatic updates of the MyShows.me Kodi add-on.</description>
+        <description lang="ru">Р РµРїРѕР·РёС‚РѕСЂРёР№ РґР»СЏ plugin.video.myshows вЂ” СѓСЃС‚Р°РЅРѕРІРєР° Рё Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёРµ РѕР±РЅРѕРІР»РµРЅРёСЏ Р°РґРґРѕРЅР° MyShows.me РІ Kodi.</description>
         <platform>all</platform>
         <license>GPL-2.0-or-later</license>
         <website>https://github.com/temandroid/plugin.video.myshows</website>
